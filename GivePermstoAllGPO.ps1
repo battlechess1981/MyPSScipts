@@ -1,0 +1,1 @@
+﻿Set-GPPermission -All -TargetName "agpmsrv" -TargetType User -PermissionLevel GpoEditDeleteModifySecurity -Replace

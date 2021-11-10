@@ -1,0 +1,1 @@
+﻿Get-Mailbox -ResultSize unlimited | where {$_.GrantSendOnBehalfTo -ne $null} | select Name,Alias,UserPrincipalName,PrimarySmtpAddress,@{l='SendOnBehalfOf';e={$_.GrantSendOnBehalfTo -join ";"}} | Export-CSV "c:\temp\SendOnBehalf.csv"

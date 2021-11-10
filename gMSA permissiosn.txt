@@ -1,0 +1,1 @@
+set-ADServiceAccount -Identity gMSA-DC-DFI -PrincipalsAllowedToRetrieveManagedPassword clinton1604$, DCFRIOP01$, dcjplp01$, dcjplv01$, dcjplv02$, dcjplv03$, dcjplv04$, dcjplv05$, dcjplv06$, jefferson1604$, johnsondt$, Taylor1604$, dcaetp01$, goldkryptonite$, darkkryptonite$

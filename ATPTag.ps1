@@ -1,0 +1,2 @@
+﻿new-item -path 'HKLM:\Software\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging'
+Set-ItemProperty -Path 'HKLM:\Software\Policies\Microsoft\Windows Advanced Threat Protection\DeviceTagging' -name 'Group' -Value 'Central Servers'
