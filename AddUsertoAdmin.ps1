@@ -1,1 +1,1 @@
-﻿Add-LocalGroupMember -Group "Administrators" -Member "utsarr\slw169"
+﻿Add-LocalGroupMember -Group "Administrators" -Member "Domain\User"
